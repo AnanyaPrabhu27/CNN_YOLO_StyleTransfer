@@ -1,0 +1,16 @@
+train: /Users/chendamao/yolov5/wineglass_yolo5/train/images
+val: /Users/chendamao/yolov5/wineglass_yolo5/valid/images
+test: /Users/chendamao/yolov5/wineglass_yolo5/test/images
+
+nc: 1
+names: ['wineglass']
+
+nc: 1
+names: ['wineglass']
+
+roboflow:
+  workspace: wineglass-6iiih
+  project: wineglass_annotation-tu3ld
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/wineglass-6iiih/wineglass_annotation-tu3ld/2
