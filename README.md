@@ -3,7 +3,7 @@
 A complete deep learning pipeline built for a university Deep Learning course — from raw data collection through CNN classification, object detection, and creative neural style transfer.
 
 **Team:** Ananya Prabhu · Rimmi Bhadani · Jiao Chen · Inoka Ranatunge · Methruchi Peiris  
-**Course:** Deep Learning Final Project — SAMK
+**Course:** Deep Learning Final Project — TUAS
 
 ---
 
@@ -25,13 +25,6 @@ CNN_YOLO_StyleTransfer/
 │
 ├── data.yaml                               # YOLOv5 dataset config (Roboflow)
 ├── wineglass_classifier.h5                 # Trained CNN weights
-│
-├── wine-glass/                             # Positive class images
-├── not-wine-glass/                         # Negative class images
-│
-├── test_images/                            # Test images for style transfer
-├── yolo_detect_output/labels/              # YOLO bounding box .txt files
-├── output_mosaic/                          # Style transfer results
 │
 └── Deep_Learning_Final_Report.pdf
 ```
@@ -143,16 +136,9 @@ YOLO bounding boxes isolate the wine glass region, a pretrained style model is a
 
 ## Results
 
-<!-- Add your before/after images here. Recommended format:
-
-| Original | Mosaic | Candy |
-|---|---|---|
-| ![](output_images/example1.png) | ![](assets/mosaic.jpg) | ![](assets/candy.jpg) |
-
-| Udnie | Rain Princess |
-|---|---|
-| ![](assets/udnie.jpg) | ![](assets/rain_princess.jpg) |
--->
+![Output image](output_images/example1.png) 
+---
+![Output image](output_images/example2.png) 
 
 ---
 
