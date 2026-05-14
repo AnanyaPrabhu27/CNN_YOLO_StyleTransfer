@@ -155,9 +155,3 @@ git clone https://github.com/ultralytics/yolov5
 cd yolov5
 pip install -r requirements.txt
 ```
-
----
-
-## Report
-
-[`Deep_Learning_Final_Report.pdf`](./Deep_Learning_Final_Report.pdf)
